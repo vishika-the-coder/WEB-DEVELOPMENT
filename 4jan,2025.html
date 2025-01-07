@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>myntra online shopping</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            .parent{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                padding-top: 20px;
+                align-items: center;
+            }
+
+            .image-in{
+                height: 50px;
+                width: 60px;
+
+            }
+            li{
+                list-style: none;
+            }
+            .items{
+                text-decoration: none;
+
+            }
+            ul{
+                display: flex;
+                gap: 25px;
+            }
+            .search{
+                width: 350px;
+                height:30px;
+                background-color: whitesmoke;
+                border-style: none;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 5px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="image"> 
+                <img class="image-in" src="./download (2).png" alt="myntra">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="items" href="#">MEN</a></li>
+                    <li><a class="items"  href="#">WOMEN</a></li>
+                    <li><a class="items" href="#">KIDS</a></li>
+                    <li><a class="items" href="#">HOME & LIVING</a></li>
+                    <li><a class="items" href="#">BEAUTY</a></li>
+                    <li><a class="items" href="#">STUDIO</a></li>
+                </ul>
+            </div>
+
+            <div class="search-bar">
+                <input class="search" type="text" id="search-bar" placeholder="search for product brands and more">
+            </div>
+
+            <div class="user">
+                <ul>
+                    <li><a class="items" href="#">Profile</a></li>
+                    <li><a class="items" href="#">Wishlist</a></li>
+                    <li><a class="items" href="#">Bag</a></li>
+                </ul>
+            </div>
+           
+
+        </div>
+    </body>
+</html>
